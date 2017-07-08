@@ -4,16 +4,16 @@
   font-family: Helvetica;
 }
 
+
 h1 {
   font-size: 70px;
   font-weight: bold;
   color: white;
-  background-image: url("./resources/the-flatiron-building.png");
 }
 
 ul {
   font-size: 18px;
-  color: white;
+  background-color: white !important;
 }
 
 h2 {
@@ -30,7 +30,7 @@ p {
   font-size: 14px;
 }
 
-small.h1 {
+.small {
   font-size: 23px
 }
 
@@ -38,4 +38,9 @@ h4{
   font-size: 11px;
   color: white;
   background-color: dimgrey;
+}
+
+a {
+  color: white;
+  background-color: white;
 }
